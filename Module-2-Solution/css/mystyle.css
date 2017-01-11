@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    font-family: "Verdana", "Comic Sans", cursive;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 1.75em;
+    text-align: center;
+    color: #576D94;
+}
+
+section {
+    background-color: grey;
+    border: 1px solid black;
+    margin: 0 0 25px 0;
+    padding: 0;
+}
+
+section h2 {
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    margin: 0 0 0 60%;
+    font-size: 1.25em;
+    text-align: center;
+    padding: 2px 0;
+    width: 40%;
+    background-color: orange;
+    color: black;
+}
+
+section p {
+    padding: 0 6px 4px 6px;
+    text-align: left;
+}
+
+
+/***Large Screen Only**/
+
+@media (min-width: 992px) {
+    section {
+        float: left;
+        margin-right: 2.5%;
+        width: 30%;
+    }
+
+    #chicken {
+        margin-left: 2.5%;
+    }
+}
+
+/***Medium Screen Only**/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    section {
+        float: left;
+        margin-right: 2.5%;
+        width: 46.25%;
+    }
+    #chicken {
+        margin-left: 2.5%;
+    }
+
+    #sushi {
+        clear: left;
+        margin-left: 2.5%;
+        width: 95%;
+    }
+
+    #sushi h2 {
+        margin: 0 0 0 80%;
+        width: 20%;
+    }
+}
+
+/***Small Screen Only**/
+
+@media (max-width: 767px) {
+    section {
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        width: 95%;
+    }
+}
