@@ -1,0 +1,67 @@
+* {
+	background-color: #white;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+	font-color: black;
+	box-sizing: border-box;
+}
+
+h1 {
+	color:  #595959;
+	font-weight: bold;
+	font-size: 2.5em;
+	padding: 15px;
+	margin: 0 10 0 10;
+	position: relative;
+}
+
+body {
+	text-align: center;
+}
+
+li {
+	font-weight: bold;
+	font-size: 1.5em;
+	background-color: #a3c9f7;
+}
+
+/** NAVBAR **/
+
+nav-list {
+	background-color: blue;
+}
+
+/** HEADER **/
+
+header.navbar {
+	float: left;
+}
+
+.navbar-brand {
+	align-content: left;
+	font-weight: bold;
+	font-size: 1.25em;
+}
+
+
+/** END OF HEADER **/
+
+section {
+    background-color: #cbbafc;
+    border: 1px solid black;
+    margin: 0 10 25px;
+    padding: 10;
+    height: auto;
+    margin-top: 10px;
+}
+section p {
+    padding: 0 6px 4px 6px;
+    text-align: left;
+}
+
+section#Chicken{
+	background-color: #f27e71;
+}
+section#Sushi {
+	background-color: #71d0f2;
+}
+
